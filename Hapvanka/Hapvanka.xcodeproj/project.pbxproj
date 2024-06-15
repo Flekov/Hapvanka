@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC17C62D2BF7FEB7001AED5B /* BrushType Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC17C62C2BF7FEB7001AED5B /* BrushType Normal.ttf */; };
+		EC7C409C2BED1E090099CA2E /* HapvankaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7C409B2BED1E090099CA2E /* HapvankaApp.swift */; };
+		EC7C409E2BED1E090099CA2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7C409D2BED1E090099CA2E /* ContentView.swift */; };
+		EC7C40A02BED1E0B0099CA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7C409F2BED1E0B0099CA2E /* Assets.xcassets */; };
+		EC7C40A32BED1E0B0099CA2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7C40A22BED1E0B0099CA2E /* Preview Assets.xcassets */; };
+		EC93E24E2BF653B30073A70B /* SemiCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93E24D2BF653B30073A70B /* SemiCircle.swift */; };
+		ECDABECC2BFBB69A00AAF4A1 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDABECB2BFBB69A00AAF4A1 /* Recipes.swift */; };
+		ECDABECE2BFBB91200AAF4A1 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDABECD2BFBB91200AAF4A1 /* RecipesViewModel.swift */; };
+		ECE4183A2BF7CD7D00B767C4 /* Arch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE418392BF7CD7D00B767C4 /* Arch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC17C62C2BF7FEB7001AED5B /* BrushType Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BrushType Normal.ttf"; path = "../../../Downloads/BrushType Normal-2/BrushType Normal.ttf"; sourceTree = "<group>"; };
+		EC17C62E2BF7FECD001AED5B /* Hapvanka-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hapvanka-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EC7C40982BED1E090099CA2E /* Hapvanka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hapvanka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7C409B2BED1E090099CA2E /* HapvankaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapvankaApp.swift; sourceTree = "<group>"; };
+		EC7C409D2BED1E090099CA2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC7C409F2BED1E0B0099CA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC7C40A22BED1E0B0099CA2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC93E24D2BF653B30073A70B /* SemiCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiCircle.swift; sourceTree = "<group>"; };
+		ECDABECB2BFBB69A00AAF4A1 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		ECDABECD2BFBB91200AAF4A1 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
+		ECE418392BF7CD7D00B767C4 /* Arch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7C40952BED1E090099CA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7C408F2BED1E090099CA2E = {
+			isa = PBXGroup;
+			children = (
+				EC7C409A2BED1E090099CA2E /* Hapvanka */,
+				EC7C40992BED1E090099CA2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC7C40992BED1E090099CA2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7C40982BED1E090099CA2E /* Hapvanka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7C409A2BED1E090099CA2E /* Hapvanka */ = {
+			isa = PBXGroup;
+			children = (
+				EC17C62E2BF7FECD001AED5B /* Hapvanka-Info.plist */,
+				EC17C62C2BF7FEB7001AED5B /* BrushType Normal.ttf */,
+				EC7C409B2BED1E090099CA2E /* HapvankaApp.swift */,
+				EC7C409D2BED1E090099CA2E /* ContentView.swift */,
+				ECDABECB2BFBB69A00AAF4A1 /* Recipes.swift */,
+				ECDABECD2BFBB91200AAF4A1 /* RecipesViewModel.swift */,
+				ECE418392BF7CD7D00B767C4 /* Arch.swift */,
+				EC93E24D2BF653B30073A70B /* SemiCircle.swift */,
+				EC7C409F2BED1E0B0099CA2E /* Assets.xcassets */,
+				EC7C40A12BED1E0B0099CA2E /* Preview Content */,
+			);
+			path = Hapvanka;
+			sourceTree = "<group>";
+		};
+		EC7C40A12BED1E0B0099CA2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC7C40A22BED1E0B0099CA2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7C40972BED1E090099CA2E /* Hapvanka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7C40A62BED1E0B0099CA2E /* Build configuration list for PBXNativeTarget "Hapvanka" */;
+			buildPhases = (
+				EC7C40942BED1E090099CA2E /* Sources */,
+				EC7C40952BED1E090099CA2E /* Frameworks */,
+				EC7C40962BED1E090099CA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hapvanka;
+			productName = "(name)";
+			productReference = EC7C40982BED1E090099CA2E /* Hapvanka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7C40902BED1E090099CA2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					EC7C40972BED1E090099CA2E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = EC7C40932BED1E090099CA2E /* Build configuration list for PBXProject "Hapvanka" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC7C408F2BED1E090099CA2E;
+			productRefGroup = EC7C40992BED1E090099CA2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7C40972BED1E090099CA2E /* Hapvanka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7C40962BED1E090099CA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7C40A32BED1E0B0099CA2E /* Preview Assets.xcassets in Resources */,
+				EC7C40A02BED1E0B0099CA2E /* Assets.xcassets in Resources */,
+				EC17C62D2BF7FEB7001AED5B /* BrushType Normal.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7C40942BED1E090099CA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDABECE2BFBB91200AAF4A1 /* RecipesViewModel.swift in Sources */,
+				ECDABECC2BFBB69A00AAF4A1 /* Recipes.swift in Sources */,
+				EC93E24E2BF653B30073A70B /* SemiCircle.swift in Sources */,
+				EC7C409E2BED1E090099CA2E /* ContentView.swift in Sources */,
+				EC7C409C2BED1E090099CA2E /* HapvankaApp.swift in Sources */,
+				ECE4183A2BF7CD7D00B767C4 /* Arch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC7C40A42BED1E0B0099CA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC7C40A52BED1E0B0099CA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC7C40A72BED1E0B0099CA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hapvanka/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JXS42895Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hapvanka-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nikolovs2003.Hapvanka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC7C40A82BED1E0B0099CA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hapvanka/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JXS42895Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hapvanka-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nikolovs2003.Hapvanka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7C40932BED1E090099CA2E /* Build configuration list for PBXProject "Hapvanka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7C40A42BED1E0B0099CA2E /* Debug */,
+				EC7C40A52BED1E0B0099CA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7C40A62BED1E0B0099CA2E /* Build configuration list for PBXNativeTarget "Hapvanka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7C40A72BED1E0B0099CA2E /* Debug */,
+				EC7C40A82BED1E0B0099CA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC7C40902BED1E090099CA2E /* Project object */;
+}
